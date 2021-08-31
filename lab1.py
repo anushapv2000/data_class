@@ -19,6 +19,8 @@ class Python:
     self.dt3=pd.read_csv(dt3)
     self.dt4=pd.read_csv(dt4)
     self.dt5=pd.read_csv(dt5)
+
+
   def titanic(self):
     dt1=self.df
     label_encoder=preprocessing.LabelEncoder()
